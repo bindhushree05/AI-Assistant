@@ -1,0 +1,14 @@
+{
+  "name": "study-mate-ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "dev:api": "node backend/server.js",
+    "dev:web": "npm --prefix frontend run dev",
+    "start:api": "node backend/server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
